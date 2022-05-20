@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@+id/contacts">
+
+    <fragment
+        android:id="@+id/contacts"
+        android:name="com.example.contactsapp.ContactsFragment"
+        android:label="@string/title_contacts"
+        tools:layout="@layout/fragment_contacts" >
+        <action
+            android:id="@+id/action_contacts_to_detail"
+            app:destination="@id/detail"
+            app:enterAnim="@anim/from_right_translation"
+            app:exitAnim="@anim/to_left_translation"
+            app:popEnterAnim="@anim/from_left_translation"
+            app:popExitAnim="@anim/to_right_translation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.contactsapp.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_to_detail"
+            app:destination="@id/detail"
+            app:enterAnim="@anim/from_right_translation"
+            app:exitAnim="@anim/to_left_translation"
+            app:popEnterAnim="@anim/from_left_translation"
+            app:popExitAnim="@anim/to_right_translation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detail"
+        android:name="com.example.contactsapp.DetailFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_detail" >
+    </fragment>
+
+</navigation>

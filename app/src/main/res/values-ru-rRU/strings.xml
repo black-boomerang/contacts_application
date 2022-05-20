@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Контакты</string>
+    <string name="title_contacts">Мои контакты</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_user">Пользователь</string>
+    <string name="image_content">Аватар</string>
+    <string name="login_text">Логин</string>
+    <string name="name_content">Имя</string>
+    <string name="login_label">Логин: %1$s</string>
+    <string name="name_label">Имя: %1$s</string>
+    <string name="email_label">Email: %1$s</string>
+    <string name="phone_label">Телефон: %1$s</string>
+    <string name="dob_label">Дата рождения: %1$s</string>
+    <string name="address_label">Адрес: %1$s</string>
+    <string name="battery_toast">Устройство заряжается\nТекущий уровень заряда - %1$d%%</string>
+</resources>

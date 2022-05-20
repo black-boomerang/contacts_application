@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="title_contacts">My contacts</string>
+    <string name="title_search">Search</string>
+    <string name="title_user">User</string>
+    <string name="image_content">Avatar</string>
+    <string name="login_text">Login</string>
+    <string name="name_content">Name</string>
+    <string name="login_label">Login: %1$s</string>
+    <string name="name_label">Name: %1$s</string>
+    <string name="email_label">Email: %1$s</string>
+    <string name="phone_label">Phone: %1$s</string>
+    <string name="dob_label">Date of birth: %1$s</string>
+    <string name="address_label">Address: %1$s</string>
+    <string name="battery_toast">The device is charging\nThe current charge level is %1$d%%</string>
+</resources>

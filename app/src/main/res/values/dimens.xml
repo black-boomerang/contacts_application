@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardMarginVertical">6dp</dimen>
+    <dimen name="cardMarginHorizontal">12dp</dimen>
+    <dimen name="imagePreviewSize">84dp</dimen>
+    <dimen name="cardContentMargin">16dp</dimen>
+    <dimen name="cardRadius">4dp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="cardTextMarginTop">4dp</dimen>
+    <dimen name="fontSize">16sp</dimen>
+    <dimen name="cardFontSize">20sp</dimen>
+</resources>

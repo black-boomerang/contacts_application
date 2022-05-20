@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/contacts"
+        android:icon="@drawable/ic_contacts"
+        android:contentDescription="@string/title_contacts"
+        android:title="@string/title_contacts" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:contentDescription="@string/title_search"
+        android:title="@string/title_search" />
+</menu>
